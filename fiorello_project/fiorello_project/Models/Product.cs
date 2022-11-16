@@ -17,6 +17,8 @@
 
         public string MainPhotoName { get; set; }
 
+        public DateTime CreateAt { get; set; }
+
 
         public ICollection<ProductPhoto> ProductPhotos { get; set; }
 
