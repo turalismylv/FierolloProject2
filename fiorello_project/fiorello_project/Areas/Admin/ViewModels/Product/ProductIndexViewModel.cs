@@ -38,7 +38,7 @@ namespace fiorello_project.Areas.Admin.ViewModels.Product
         [Display(Name = "Created end date")]
         public DateTime? CreateAtEnd { get; set; }
 
-        public ProductStatus Status { get; set; }
+        public ProductStatus? Status { get; set; }
 
         #endregion
 
