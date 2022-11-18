@@ -6,6 +6,8 @@
     }
 }
 
+
+
 div.rbt-toolbar {
     font-family: 'Heebo', sans-serif !important;
     font-weight: 400;
@@ -27,6 +29,16 @@ div.rbt-toolbar a{
     font-size: 0;
     line-height: 0;
 }
+
+
+
+
+a.disabled {
+
+    pointer-events: none;
+
+}
+
 
 div.rbt-toolbar a img{
     display: inline-block;
